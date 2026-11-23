@@ -56,7 +56,7 @@ $L<f$ 时 $z<0$，焦点是虚的，相机放在任何正距离都看不到焦�
 
 ## 5. 七种图案
 
-代码在 [`slm-lab`](https://github.com/1941462688/slm-lab)（同一账号的另一个仓库），主要入口：
+代码在 [`slm-lab`](https://github.com/summit-leen/slm-lab)（同一账号的另一个仓库），主要入口：
 
 - `code/random_lens_array.py`：随机位置 + 随机焦距的稀疏阵列
 - `code/dense_mla.py`：六角密排的等焦距阵列

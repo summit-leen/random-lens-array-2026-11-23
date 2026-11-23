@@ -4,7 +4,7 @@
 
 本仓库是 **2026-11-23 当天**的实验记录与原始数据：过程、设计约束、七种图案、十四组原始帧、轴向扫描与定量对比。
 
-> 驱动与生成工具链在另一个仓库：[**slm-lab**](https://github.com/1941462688/slm-lab)
+> 驱动与生成工具链在另一个仓库：[**slm-lab**](https://github.com/summit-leen/slm-lab)
 > （`code/random_lens_array.py`、`code/dense_mla.py`、`code/random_phase.py`、`code/cam_stack.py` 等；本仓库只放当天的数据与记录，不重复代码。）
 
 ![七种图案](figures/fig00_patterns.png)
@@ -62,7 +62,7 @@
 ## 复现
 
 ```bash
-git clone https://github.com/1941462688/slm-lab.git
+git clone https://github.com/summit-leen/slm-lab.git
 cd slm-lab
 # 生成 01 号图案并显示
 python code/random_lens_array.py --n 80 --seed 20261123 --show --hold 0
